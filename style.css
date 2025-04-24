@@ -1,0 +1,84 @@
+/* index */
+.Index1{
+    background-color:rgb(2, 63, 63);
+}
+
+body{
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn{
+    outline: 0;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+}
+
+
+
+.card1{
+    background-color:rgb(2, 63, 63);
+}
+.card2{
+    background-color: rgb(2, 63, 63);
+   
+}
+
+.txt{
+    font-size: 30px;
+    color: white;
+}
+
+.myheader{
+    background-color: gray;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* pattiental */
+
+
+.my{
+    background-color:rgb(2, 63, 63);
+}
+
+.btn{
+    outline: 0;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+}
+
+.card1{
+    background-color: #e76100;
+}
+.card2{
+    background-color: rgb(2, 63, 63);
+   
+}
+
+.txt{
+    font-size: 30px;
+    color: white;
+}
+
+.myheader{
+    background-color: gray;
+    opacity: 20%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    background-color: #00508e;
+    padding: 10px;
+    color: white;
+    border: 1px solid #00508e
+}

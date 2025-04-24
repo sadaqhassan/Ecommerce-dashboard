@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+   
+</head>
+  <body>
+    <div class="d-flex">
+        <div class="my vh-100" style="width: 230px;">
+            <div class="max-auto">
+                <img class="w-50" src="./images/logo.png" alt="">
+            </div>
+            <button class="btn">
+                <i class="fa-solid fa-gauge text-white px-2"></i>
+                <a href="/index.html">E-commerce</a>
+            </button>
+            <button class="btn">
+                <i class="fa-solid fa-pen-to-square px-2"></i>
+                Workers
+            </button>
+            <button class="btn">
+                <i class="fa-solid fa-user-doctor px-2"></i>
+                Prodects
+            </button>
+            <button class="btn">
+                <i class="fa-brands fa-servicestack px-2"></i>
+                Services
+            </button>
+            <button class="btn">
+                <i class="fa-solid fa-flag px-2"></i>
+                Order
+            </button>
+            <button class="btn">
+                <i class="fa-solid fa-money-check-dollar px-2"></i>
+                Expenses
+            </button>
+            <button class="btn">
+                <i class="fa-regular fa-user px-2"></i>
+                Users
+            </button>
+            <!-- sidebar -->
+        </div>
+        
+        <div class=" w-100">
+          
+            <div class="m-4" >
+                <div class="d-flex justify-content-end mx-5 mt-4">
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal">+Add New</button>
+                </div>
+                <!-- My content -->
+            </div>
+
+            <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add New Pattient</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="" class="form-group">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-location-dot"></i></span>
+                <input type="text" class="form-control" placeholder="Address" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+           
+            
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+          <div class="m-5">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Sadak Hassan</td>
+                        <td>Wadajir</td>
+                        <td>613170796</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Ali siraaji</td>
+                        <td>Kaxda</td>
+                        <td>6144++++</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Abdalla</td>
+                        <td>  Warta nabada</td>
+                        <td>61234+++</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ali muuse</td>
+                        <td>Taleex</td>
+                        <td>6123++++</td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
